@@ -28,12 +28,11 @@ class Solution:
             group_num_total = len(s) // group_size + 1
 
         # for each element, store which group it's in and its position in its group
-        group_num = []
-        group_index = []
-        
+        # build a dictionary to do the search faster later, where key = (group number, group_index), value = index
+        dictionary = {}
+
         for i in range(0, len(s)):
-            group_num.append(i // group_size)
-            group_index.append(i % group_size)
+            dictionary[(i // group_size, i % group_size)] = i
 
         # index should go before group
         # from the first group to the last
@@ -41,16 +40,12 @@ class Solution:
             # from the first index to the middle
             for group in range(0, group_num_total):
                 # get the element to store
-                for i in range(0, len(s)):
-                    if group_num[i] == group and group_index[i] == index:
-                        answer = answer + s[i]
-                        breaks
+                if (group, index) in dictionary.keys():
+                    answer = answer + s[dictionary[(group, index)]]
                 # consider the cases when 2 elements are on the same row
                 # store the element as well
                 if index != 0 and index != group_size//2:
-                    for i in range(0, len(s)):
-                        if group_num[i] == group and group_index[i] + index == group_size:
-                            answer = answer + s[i]
-                            break
+                    if (group, group_size-index) in dictionary.keys():
+                        answer = answer + s[dictionary[(group, group_size-index)]]
         
         return answer
