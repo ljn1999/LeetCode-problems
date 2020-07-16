@@ -1,4 +1,7 @@
 # 2020.07.08
+# Problem Statement:
+# https://leetcode.com/problems/median-of-two-sorted-arrays/
+
 # This question was so hard that I didn't come up with the solution on my own.
 # I read a solution providied by leetcode and then wrote my solution using the idea of that.
 

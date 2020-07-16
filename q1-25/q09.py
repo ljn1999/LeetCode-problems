@@ -1,5 +1,7 @@
 # 2020.07.12
 # plan to leave 2 days for q10 (hard)
+# Problem Statement:
+# https://leetcode.com/problems/palindrome-number/
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
