@@ -8,8 +8,7 @@ class Solution:
         # return when length is enough
         if len(string) == 2*n:
             answer.append(string)
-            return
-        
+            return        
         else:
             # if more left brackets can be added (not should)
             if count_left < n:
