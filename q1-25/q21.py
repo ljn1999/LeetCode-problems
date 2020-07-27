@@ -35,7 +35,7 @@ class Solution:
                 if ptr_1.next is not None:
                     ptr_1 = ptr_1.next
                 else:
-                    # if l1 is finished, the no need to do the rest
+                    # if l1 is finished, then no need to do the rest
                     answer_ptr.val = ptr_2.val
                     answer_ptr.next = ptr_2.next
                     return answer_head
@@ -50,7 +50,7 @@ class Solution:
                 if ptr_2.next is not None:
                     ptr_2 = ptr_2.next
                 else:
-                    # if l2 is finished, the no need to do the rest
+                    # if l2 is finished, then no need to do the rest
                     answer_ptr.val = ptr_1.val
                     answer_ptr.next = ptr_1.next
                     return answer_head
