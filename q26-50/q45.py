@@ -35,13 +35,11 @@ class Solution:
 
 # TLE dp solution
 class Solution:
-    def jump_helper(self, nums, start_idx):
-        
+    def jump_helper(self, nums, start_idx):        
         if start_idx in self.memory.keys():
             return self.memory[start_idx]
-        
-        temp = 0
-        
+
+        temp = 0       
         if start_idx > len(nums)-1:
             pass
         elif start_idx == len(nums)-1:
@@ -57,8 +55,7 @@ class Solution:
         self.memory[start_idx] = temp
         return self.memory[start_idx]
         
-    def jump(self, nums: List[int]) -> int:
-        
+    def jump(self, nums: List[int]) -> int:        
         self.memory = {}
         answer = self.jump_helper(nums, 0)
         return answer
