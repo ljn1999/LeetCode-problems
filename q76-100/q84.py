@@ -3,6 +3,7 @@
 # https://leetcode.com/problems/largest-rectangle-in-histogram/
 # didn't come up with an O(n) solution, so looked up the solution
 # https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28963/Python-solution-without-using-stack.-(with-explanation)
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         # initialize the answer to return
