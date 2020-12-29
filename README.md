@@ -10,6 +10,4 @@ Update on 2020.10.14:
 也许今年都不会继续了lol，等手里的事情处理完了会回来的。
 
 Updata on 2020.12.29:
-Finally finished my GRE test and enjoyed several chill weeks :-) Glad to be back at the very end of 2020! Merry Christmas and happy new year!
-
-Hopefully I could resume it as my daily practice.
+Finally finished my GRE test and enjoyed several chill weeks :-) Glad to be back at the very end of 2020! Merry Christmas and happy new year! Hopefully I could resume it as my daily practice.
