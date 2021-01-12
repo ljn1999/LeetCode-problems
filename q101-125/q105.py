@@ -36,6 +36,8 @@ class Solution:
     def buildTreeHelper(self, preorder, inorder, root):
         # base case
         if len(inorder)*len(preorder) == 0: return
+
+        inorder_idx = inorder.index(preorder[0])
         
         if inorder_idx != 0:
             left_inorder = inorder[:inorder_idx]
