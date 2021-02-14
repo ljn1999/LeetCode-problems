@@ -17,7 +17,7 @@ class Solution:
         while len(level) != 0:
             newLevel = collections.defaultdict(list)
             
-            # see what where the the current keys in level can go
+            # see where the the current keys in level can go
             for word in level:
                 # reach the end, return the answer
                 if word == endWord:
