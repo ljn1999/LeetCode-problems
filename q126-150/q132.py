@@ -9,10 +9,13 @@ class Solution:
     def minCut(self, s: str) -> int:
         if len(s) == 0 or len(s) == 1: return 0
         
+        # initialization, will not exceed i cut for s[0:i+1]
+        # dp_min_cut[i] would store the least num of cut for sub-string s[0:i+1]
         dp_min_cut = []
         for i in range(0, len(s)):
             dp_min_cut.append(i)
         
+        # try all palindrome possibilities
         for center in range(1, len(s)):
             # odd palindrome
             start_odd, end_odd = center, center
@@ -30,7 +33,12 @@ class Solution:
                 else:
                     dp_min_cut[end_even] = min(dp_min_cut[end_even], dp_min_cut[start_even-1]+1)
                 start_even = start_even-1
-                end_even = end_even+1
-                    
+                end_even = end_even+1                    
         
         return dp_min_cut[-1]
+
+        # alternative way:
+        # when we have an extra char into string, 
+        # it can either be treatly separately as a single substring,
+        # or can be merged with char(s) before to form a palindrome,
+        # then the min cut for the new string would be (min for old+1, min(cut for (string - possible palindromes with the last char) + 1))
