@@ -3,8 +3,28 @@
 # https://leetcode.com/problems/word-break/
 
 class Solution:
+    # Approach 1, much faster, but still only faster than 5%
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        # a slow dp :-(
+        # dp
+        self.dp_structure = [[False for i in range(len(s)+1)] for j in range(len(s)+1)]
+        wordDict = set(wordDict)
+        # order: from shortest substring to longest, therefore all info needed for current step is already calculated
+        for length in range(1, len(s)+1):
+            for start in range(0, len(s)+1-length):
+                end = start+length
+                if s[start:end] in wordDict:
+                    self.dp_structure[start][end] = True
+                else:    
+                    for middle in range(start+1, end):
+                        if self.dp_structure[start][middle] and self.dp_structure[middle][end]:
+                            self.dp_structure[start][end] = True
+                            break
+                    
+        return self.dp_structure[0][len(s)]
+
+    # Approach 2, slow dp :-(, only faster than 5%
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        # dp
         # self.dp_structure[i][j] would represent if self.wordBreak(s[i:j], wordDict) is True or False
         self.dp_structure = [["x" for i in range(len(s)+1)] for j in range(len(s)+1)]
         
