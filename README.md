@@ -12,5 +12,5 @@ Perhaps will not continue on the repo this year lol, will come back when I finis
 Updata on 2020.12.29:
 Finally finished my GRE test and enjoyed several chill weeks :-) Glad to be back at the very end of 2020! Merry Christmas and happy new year! Hopefully I could resume it as my daily practice.
 
-Update on 2021.04.06
+Update on 2021.04.06:
 As some leetcode problems are locked unless I subscribe, I would have to skip them for now.
