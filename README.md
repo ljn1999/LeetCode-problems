@@ -14,3 +14,6 @@ Finally finished my GRE test and enjoyed several chill weeks :-) Glad to be back
 
 Update on 2021.04.06:
 As some leetcode problems are locked unless I subscribe, I would have to skip them for now.
+
+Update on 2021.06.01:
+最近一个多月都没做，说实话sql忘得差不多了，不想跳过但又不想复习，以后再说吧。
