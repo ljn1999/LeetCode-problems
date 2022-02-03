@@ -17,3 +17,6 @@ As some leetcode problems are locked unless I subscribe, I would have to skip th
 
 Update on 2021.06.01:
 最近一个多月都没做，说实话sql忘得差不多了，不想跳过但又不想复习，以后再说吧。
+
+Update on 2022.02.03:
+Happy new year! Feeling confused, lost and unmotivated for so many things... In the last term @ UofT my only mission is to graduate :-). Will resume daily practice this summer.
