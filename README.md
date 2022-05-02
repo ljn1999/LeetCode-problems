@@ -20,3 +20,6 @@ Update on 2021.06.01:
 
 Update on 2022.02.03:
 Happy new year! Feeling confused, lost and unmotivated for so many things... In the last term @ UofT my only mission is to graduate :-). Will resume daily practice this summer.
+
+Update on 2022.05.02:
+F1 VISA got checked. Fingers crossed! Plz let me gooooo. Meanwhile I'll do leetcode problems to distract myself from the painful wait.
