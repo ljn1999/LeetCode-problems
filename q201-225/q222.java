@@ -1,4 +1,4 @@
-// 2022.05.10 midnight
+// 2022.05.10
 // Problem Statement:
 // https://leetcode.com/problems/count-complete-tree-nodes/
 
