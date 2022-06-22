@@ -23,3 +23,6 @@ Happy new year! Feeling confused, lost and unmotivated for so many things... In 
 
 Update on 2022.05.02:
 F1 VISA got checked. Fingers crossed! Plz let me gooooo. Meanwhile I'll do leetcode problems to distract myself from the painful wait.
+
+Update on 2022.06.18:
+Finally got my F1 VISA issued and got my passport back! Hope everything goes well with my flight back to China tonight.
