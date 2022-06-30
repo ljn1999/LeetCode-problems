@@ -1,4 +1,4 @@
-// 2022.06.29
+// 2022.06.30
 // Problem Statement:
 // https://leetcode.com/problems/number-of-provinces/
 
@@ -13,7 +13,7 @@ class Solution {
             }
         }
     }
-    
+
     public int findCircleNum(int[][] isConnected) {
         boolean [] visited = new boolean [isConnected.length];
         int answer = 0;
