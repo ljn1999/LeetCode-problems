@@ -1,4 +1,3 @@
-
 // 2022.08.05
 // Problem Statement:
 // https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
