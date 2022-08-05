@@ -3,6 +3,8 @@
 // https://leetcode.com/problems/search-suggestions-system/
 
 // idea: build a trie structure, create the trie structure, and search the trie structure
+// a better trie structure: https://leetcode.com/problems/search-suggestions-system/discuss/508775/Python-Trie-%2B-sort-Trie-%2B-Heap
+// store suggestions inside each trie node on creation!
 class Solution {
     public class trieNode {
         String str;
