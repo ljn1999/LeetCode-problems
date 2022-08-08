@@ -29,19 +29,11 @@ class Solution {
         while (cnt<s.length()) {
             // do the char with the max count to avoid issue like "lvovv" (do l then o finally v)
             for (int j=0; j<count[max_char_idx]; j++) {
-                if (s.length()-even>=1) {
-                    char temp = 'a';
-                    temp += max_char_idx;
-                    answer[even] = temp;
-                    even += 2;
-                    cnt++;
-                } else {
-                    char temp = 'a';
-                    temp += max_char_idx;
-                    answer[odd] = temp;
-                    odd += 2;
-                    cnt++;
-                }
+                char temp = 'a';
+                temp += max_char_idx;
+                answer[even] = temp;
+                even += 2;
+                cnt++;
             }
             // do the rest char
             for (int i=0; i<26; i++) {
