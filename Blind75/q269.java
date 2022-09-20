@@ -2,7 +2,7 @@
 // Problem Statement:
 // https://leetcode.com/problems/alien-dictionary/
 
-// idea: directed graph check cyclic or not -> bfs with in-degrees
+// idea: directed & unweighted graph check cyclic or not -> bfs with in-degrees
 class Solution {
     public String alienOrder(String[] words) {
         // build graph, key: char, val: chars larger than key
